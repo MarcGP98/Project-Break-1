@@ -57,6 +57,7 @@ El dashboard incluye 4 secciones principales:
 
 ## Estructura del proyecto
 
+```
 project-break-1/
 ├─ html/
 │  ├─ index.html
@@ -74,4 +75,5 @@ project-break-1/
 │  └─ background.js
 ├─ img/
 │  └─ (imágenes del carrusel)
-└─ README.md 
+└─ README.md
+```
