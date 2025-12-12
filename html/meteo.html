@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estación meteorológica</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a href="index.html" class="menu-principal">Menú Principal</a>
+
+  <div class="meteo-contenedor">
+    <h1 class="meteo-titulo">El tiempo hoy</h1>
+
+    <div class="meteo-actual">
+      <div>
+        <p id="meteo-ciudad" class="meteo-ciudad">Ciudad, País</p>
+        <p id="meteo-estado" class="meteo-estado">Estado del clima</p>
+      </div>
+      <div class="meteo-actual-datos">
+        <img id="meteo-icono" class="meteo-icono" src="" alt="Icono clima">
+        <p id="meteo-temp" class="meteo-temp">--°C</p>
+      </div>
+    </div>
+
+    <div class="meteo-extra">
+      <p id="meteo-humedad">Humedad: --%</p>
+      <p id="meteo-viento">Viento: -- km/h</p>
+      <p id="meteo-lluvia">Precipitación: -- mm</p>
+    </div>
+
+    <h2 class="meteo-subtitulo">Pronóstico por horas</h2>
+    <div id="meteo-horas" class="meteo-horas">
+    </div>
+
+    <p id="meteo-error" class="meteo-error"></p>
+  </div>
+
+  <script src="../js/background.js"></script>
+  <script src="../js/meteo.js"></script>
+    <nav class="dashboard-nav">
+    <a href="reloj.html" class="dashboard-nav-item">🕰️</a>
+    <a href="password.html" class="dashboard-nav-item">🔐</a>
+    <a href="links.html" class="dashboard-nav-item">🔗</a>
+    <a href="meteo.html" class="dashboard-nav-item">🌥️</a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis links</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a href="index.html" class="menu-principal">Menú Principal</a>
+
+  <div class="links-contenedor">
+    <h1 class="links-titulo">Añade tus enlaces de interés</h1>
+
+    <form id="links-form">
+      <label for="link-name" class="links-label">Nombre del enlace</label>
+      <input
+        type="text"
+        id="link-name"
+        class="links-input"
+        placeholder="Ej: TheBridge, YouTube, Twitch..."
+      >
+
+      <label for="link-url" class="links-label">URL del enlace</label>
+      <input
+        type="text"
+        id="link-url"
+        class="links-input"
+        placeholder="Ej: https://thebridge.tech/"
+      >
+
+      <button type="submit" class="links-boton">Añadir enlace</button>
+      <p id="links-error" class="links-error"></p>
+    </form>
+
+    <h2 class="links-subtitulo">Mis enlaces</h2>
+    <div id="links-lista" class="links-lista">
+    </div>
+  </div>
+
+  <script src="../js/background.js"></script>
+  <script src="../js/links.js"></script>
+    <nav class="dashboard-nav">
+    <a href="reloj.html" class="dashboard-nav-item">🕰️</a>
+    <a href="password.html" class="dashboard-nav-item">🔐</a>
+    <a href="links.html" class="dashboard-nav-item">🔗</a>
+    <a href="meteo.html" class="dashboard-nav-item">🌥️</a>
+  </nav>
+</body>
+</html>
