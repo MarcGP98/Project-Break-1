@@ -73,5 +73,5 @@ project-break-1/
 │  ├─ meteo.js
 │  └─ background.js
 ├─ img/
-│  └─ (imagenes del carrusel)
-└─ README.md
+│  └─ (imágenes del carrusel)
+└─ README.md 
